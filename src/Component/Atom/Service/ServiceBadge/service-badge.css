@@ -1,0 +1,26 @@
+.iysr-service-badge {
+  padding: 8px 10px;
+}
+
+.iysr-service-badge > span.service-name {
+  margin-left: 5px;
+  vertical-align: middle;
+  font-weight: 500;
+}
+
+.iysr-service-badge > .iysr-icon {
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+
+  border-right: 1px solid rgba(255,255,255,0.02);
+}
+
+.iysr-service-badge-tooltip {
+  max-width: 400px;
+}
+
+.iysr-service-badge-tooltip > .tooltip-inner {
+  padding: 5px 10px;
+  max-width: 400px;
+}

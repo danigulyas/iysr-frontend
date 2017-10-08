@@ -2,7 +2,8 @@ import React from 'react';
 import { Container } from 'reactstrap';
 
 import Icon from 'Component/Atom/Text/Icon';
-import './sticky-footer.css';
+
+import './footer.css';
 
 export default () => (
   <footer className="footer">

@@ -2,26 +2,19 @@ import React from 'react';
 import styled from 'styled-components';
 import { storiesOf } from '@storybook/react';
 import { select } from '@storybook/addon-knobs';
+import centered from '@storybook/addon-centered';
 
 import Icon from './'
 
 const Wrapper = styled.div`
   width: 200px;
   height: 200px;
-  margin: 5% auto;
-  padding: 50px 50px;
-
-  justify-content: center;
-  align-items: center;
+  padding: 50px;
 
   border: 1px dotted lightgrey;
 
   span {
     display: block;
-    width: 100%;
-    height: 100%;
-    align-self: center;
-    margin: auto;
     
     svg {
       width: 100%;
@@ -34,6 +27,7 @@ const nameOptions = Icon.names;
 const colorOptions = Icon.colors;
 
 storiesOf('Atom/Text/Icon', Icon)
+  .addDecorator(centered)
   .add('interactive', () => (
     <Wrapper>
       <Icon

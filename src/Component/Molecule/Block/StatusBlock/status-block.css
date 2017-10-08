@@ -1,0 +1,19 @@
+.iysr-service-block .iysr-service-badge {
+  margin: 2px 3px;
+}
+
+.iysr-service-block .header {
+  color: #fff;
+  padding-bottom: 0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.iysr-service-block .header.header-operational { background-color: #5cb85c; }
+.iysr-service-block .header.header-degraded_performance { background-color: #f0ad4e; }
+.iysr-service-block .header.header-partial_outage { background-color: #d9534f; }
+.iysr-service-block .header.header-outage { background-color: #d9534f; }
+
+.iysr-service-block .header .card-subtitle {
+  margin-bottom: 15px;
+}
